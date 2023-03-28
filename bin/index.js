@@ -13,7 +13,7 @@ function commandExecute(command) {
     return true;
 }
 
-const repoName = process.argv[2] || ".";
+const repoName = process.argv[3] || ".";
 
 const gitCheckCommand = `git clone --depth 1 https://github.com/MarkSmersh/create-telegramts-app ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm i`;
