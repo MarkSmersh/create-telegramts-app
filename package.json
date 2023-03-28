@@ -1,0 +1,25 @@
+{
+  "name": "@marksmersh/create-telegramts-app",
+  "version": "1.0.0",
+  "description": "TelegramTS template for brilliant start!",
+  "bin": "./bin/cli/js",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkSmersh/create-telegramts-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkSmersh/MiniChatGPT-TelegramBot/issues"
+  },
+  "homepage": "https://github.com/MarkSmersh/create-telegramts-app#readme",
+  "dependencies": {
+    "@marksmersh/telegramts": "^1.4.0",
+    "dotenv": "^16.0.3"
+  }
+}
